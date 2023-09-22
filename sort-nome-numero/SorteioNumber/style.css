@@ -1,0 +1,94 @@
+    
+
+ul, ol {
+    list-style: none; /* Remove marcadores de lista padrão */
+}
+
+blockquote, q {
+    quotes: none; /* Remove aspas padrão */
+}
+
+blockquote::before, blockquote::after, q::before, q::after {
+    content: ''; /* Remove as aspas antes e depois dos elementos de citação */
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(180deg, #B3EFB2 30%, #E8F1F2 100%);
+    width: 100%;
+    height: 755px;
+}
+
+
+.container {
+
+    display: grid;
+    place-items: center;
+    position: absolute;
+    inset: 180PX;
+    background-color: #31493C;
+    border: 3px solid #001A23;
+    border-radius: 15px;
+    color: white;
+}
+
+
+.sorteio {
+    margin-top: 50px;
+    font: 400 40px 'Poppinsb',sans-serif;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+
+}
+
+.entrada {
+    padding: 15px;
+    padding-right:80px;
+}
+#min{
+    padding: 12px;
+    border-radius: 15px;
+}
+
+#max {
+    padding: 12px;
+    border-radius: 15px;
+}
+
+.minT {
+    font: 400 20px 'Poppinsb',sans-serif;
+    padding-right:8px;       
+}
+
+.maxT {
+    font: 400 20px 'Poppinsb',sans-serif;
+    padding-right:5px;
+}
+
+
+#sortear {
+    width: 80px;
+    border-radius: 30px;
+    font: 100 15px 'PoppinsS',sans-serif;
+}
+
+.sortearDiv {
+    padding-bottom: 40px;
+}
+
+#resultado {
+    padding-bottom: 10px;
+    
+}

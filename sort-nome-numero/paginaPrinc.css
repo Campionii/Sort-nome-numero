@@ -1,0 +1,111 @@
+
+/* Reset CSS */
+body, h1, h2, h3, p, ul, ol, li, figure, figcaption, blockquote, dl, dd, dt {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Define uma fonte padrão para o corpo */
+}
+
+ul, ol {
+    list-style: none; /* Remove marcadores de lista padrão */
+}
+
+blockquote, q {
+    quotes: none; /* Remove aspas padrão */
+}
+
+blockquote::before, blockquote::after,
+q::before, q::after {
+    content: ''; /* Remove as aspas antes e depois dos elementos de citação */
+}
+
+/* Reinicia estilos de links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Estilizações adicionais podem ser adicionadas conforme necessário para o seu projeto */
+
+
+a {
+    text-decoration: none;
+}
+
+body{
+    background-color: #DDFFF7;
+}
+
+.header {
+    background-color: #E980FC;
+    padding: 20px;
+    font: 700 20px 'SansB';
+    color: #fff;;
+}
+.header h1 {
+    margin-left: 50px;
+}
+
+.Principal {
+    display: flex;
+    flex-direction: column; /* Empilhar os elementos verticalmente */
+    justify-content: center; /* Centralizar verticalmente */
+    align-items: center; /* Centralizar horizontalmente */
+    height: 100vh; /* Definir a altura da tela inteira */
+}
+
+
+.Titulo {
+    font: 400 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+
+button {
+    cursor: pointer;
+    font-weight: 700;
+    font-family: Helvetica,"sans-serif";
+    transition: all .2s;
+    padding: 10px 20px;
+    border-radius: 100px;
+    background: #E980FC;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    padding: 15px;
+    margin: 15px;
+    margin-left: 700px;
+    
+    
+  }
+
+  button:hover {
+    background: #FFD2FC;
+  }
+  
+  button > svg {
+    width: 34px;
+    margin-left: 10px;
+    transition: transform .3s ease-in-out;
+  }
+  
+  button:hover svg {
+    transform: translateX(5px);
+  }
+  
+  button:active {
+    transform: scale(0.95);
+  }
+
+  .botoes{
+    display: flex;
+    margin: 5px;
+    margin-top: 15px;
+
+ }
